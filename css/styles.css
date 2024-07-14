@@ -62,7 +62,7 @@ color: #000000;
 
   display: block;
   text-align: center;
-  color: #E1A629;
+  color: #134281;
 }
 .section-header .section-title:before {
   content: "------------";
@@ -71,7 +71,7 @@ color: #000000;
   bottom: 4px;
   right: 0;
   width: 100px;
-  color: #89BB24;
+  color: #134281;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -81,14 +81,14 @@ color: #000000;
 
 .btn {
   border-width: 0;
-  border-radius: 0;
+  border-radius: 50;
 }
 .btn.btn-primary {
-  background: #89BB24;
+  background: #134281;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #81A9F9;
+  background: #e1a629;
 }
 .listarrow{
 padding:0px;
@@ -108,7 +108,7 @@ color: #60E1BF;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
-  color: #fff;
+  color: #ffffff;
 }
 .column-title:after {
   content: " ";
@@ -164,11 +164,11 @@ text-transform: uppercase;
 }
 
 #main-nav.navbar-default {
-background: #FFFFFF;
+background: #16457a;
 /* padding: 10px 0; */
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
-background: #E1A629;
+background: #16457a;
 color: #FFFFFF;
 /* font-weight: bold; */
 }
@@ -185,7 +185,7 @@ color: #FFFFFF;
   padding: 15px 15px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #F8680D;
+color: #16457a;
  
 background: transparent;
 }
@@ -217,7 +217,7 @@ box-shadow: 0px 1px 2px rgba(145, 145, 145, 0.6);
 
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
-    background: rgb(225, 166, 41); 
+    background: #16457a; 
 	
     color: #FFFFFF;
   
@@ -226,7 +226,7 @@ box-shadow: 0px 1px 2px rgba(145, 145, 145, 0.6);
   #main-nav.navbar-default .dropdown-menu {
     padding: 0 20px;
     min-width: 220px;
-    background-color: rgba(26, 28, 40, 0.9);
+    background-color: rgba(58, 210, 27, 0.9);
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -250,7 +250,7 @@ box-shadow: 0px 1px 2px rgba(145, 145, 145, 0.6);
   #main-nav.navbar-default .dropdown-menu > li.active,
   #main-nav.navbar-default .dropdown-menu > li.open,
   #main-nav.navbar-default .dropdown-menu > li:hover {
-    border-left-color: #45aed6;
+    border-left-color: #4fc41d;
   }
   #main-nav.navbar-default .dropdown-menu > li.active > a,
   #main-nav.navbar-default .dropdown-menu > li.open > a,
@@ -399,7 +399,7 @@ color:#fff !important;
   bottom: -1px;
 }
 .features .media.service-box .pull-left > i{
-color: #89BB24;
+color: #16457a;
 font-size: 50px;
 padding-top: 22px;
 overflow: hidden;
@@ -425,15 +425,15 @@ overflow: hidden;
   display: block;
   padding: 7px 15px;
   margin:0px 2px;
-  color: #4C4C4C;
+  color: #000000;
   position: relative;
   border-bottom: 2px solid transparent;
-  background: rgba(145, 145, 145, 0.29);
+  background: #c6c6c6;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #89BB24;
-  color: #FFFFFF; 
+  background: #c6c6c6;
+  color: #000000; 
 } 
 #portfolio .portfolio-items {
   margin: -15px;
@@ -462,7 +462,7 @@ overflow: hidden;
   text-align: center;
   padding: 18px 0 0;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #faf9f9;
   height:100%;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
@@ -585,7 +585,7 @@ margin: 0 8px;
 }
 #about {
   padding: 100px 0;
-  background: #E1A629;
+  background: #16457a;
   /* background: url('../images/img2.jpg'); */    
   background-size: cover;  };
 }
@@ -849,7 +849,7 @@ color: #FFFFFF;
 }
 #contact-us {
   padding: 100px 0 10px;
-  background: #E1A629 url('../images/map-image.png') top left no-repeat;
+  background: #16457a url('../images/map-image.png') top left no-repeat;
 }
 #contact-us h1,
 #contact-us h2 {
@@ -857,7 +857,7 @@ color: #FFFFFF;
 }
 /*Contact*/
  .contact-info{
- background: #E1A629;
+ background: #526f90;
  padding: 50px;
  margin-bottom: 50px;
  color: #fff;
@@ -887,10 +887,10 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #0B0B0B;
-  background: #FFFFFF;
+  background: #7589a0;
 }
 #footer a {
-  color: #000;
+  color: #000000;
 }
 #footer a:hover {
   color: #60E1BF;
